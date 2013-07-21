@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Income</Name>
+    <ProjectGuid>dd538795-cd2b-466d-b973-8046dc0edced</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Income</RootNamespace>
+    <!-- important to be opened by PHP Tools, when also Phalanger Tools are installed -->
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Income</AssemblyName>
+    <IISProjectUrl>http://localhost:45410/</IISProjectUrl>
+    <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+    <Server>IISExpress</Server>
+    <PHPDevAutoPort>True</PHPDevAutoPort>
+    <PHPDevPort>62061</PHPDevPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Connection\Connection.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exception\IncomeException.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exception\TransactionException.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions\Common.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exception" />
+    <Folder Include="Connection" />
+    <Folder Include="Functions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Income.config.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

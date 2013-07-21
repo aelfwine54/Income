@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Income", "Income\Income.phpproj", "{DD538795-CD2B-466D-B973-8046DC0EDCED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD538795-CD2B-466D-B973-8046DC0EDCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD538795-CD2B-466D-B973-8046DC0EDCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD538795-CD2B-466D-B973-8046DC0EDCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD538795-CD2B-466D-B973-8046DC0EDCED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

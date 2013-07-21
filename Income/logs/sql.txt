@@ -1,0 +1,1 @@
+09-Feb-2013 04:19:31: SELECT * FROM `personnes`
